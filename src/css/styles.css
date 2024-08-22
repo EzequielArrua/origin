@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-position: center center;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img.logo-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #d4d4d4;
+}
+
+h3, h4 {
+    font-weight: bold;
+}
+
+#servicios .servicio {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+#servicios .servicio:hover {
+    background-color: #e9ecef;
+}
+
+.icon {
+    float: right;
+    font-size: 1.6em;
+    transition: transform 0.8s ease;
+}
+
+.servicio .contenido-servicio {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+}
+
+.servicio.active .contenido-servicio {
+    max-height: 200px;
+    display: block;
+}
+
+.card {
+    background-image: url("../img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 200px;
+}
+
+#contacto .info-contacto-modulo {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid
+}
+
+
