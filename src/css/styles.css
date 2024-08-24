@@ -6,7 +6,7 @@ body {
 
 header {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -29,6 +29,29 @@ header {
 
 h3, h4 {
     font-weight: bold;
+}
+
+
+
+#presentacion{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/legal.webp");
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en una columna (uno debajo del otro) */
+    justify-content: center; /* Alinea el contenido hacia la parte inferior del contenedor */
+    align-items: center;
+    background-color: rgb(56, 55, 55);
+}
+
+#txtpresentacion{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #servicios .servicio {
@@ -62,19 +85,48 @@ h3, h4 {
     display: block;
 }
 
+
+#rodolfo {
+    background-image: url("../img/rodolfo.jpg");
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+
+
 .card {
-    background-image: url("../img/img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    height: 200px;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Alinea todo el contenido hacia la parte inferior */
+    align-items: center; /* Mantiene el contenido centrado horizontalmente */
+    background-color: rgb(56, 55, 55);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en una columna (uno debajo del otro) */
+    justify-content: flex-end; /* Alinea el contenido hacia la parte inferior del contenedor */
+    align-items: center; /* Centra el contenido horizontalmente */
+    width: 100%;
+    text-align: center; /* Centra el texto horizontalmente */
+   
+}
+
+.name {
+    margin: 0;
+    padding-bottom: 5px; /* Espacio entre el nombre y la descripción */
+}
+
+.descripcion {
+    margin: 0;
+    font-size: 0.6em; /* Ajusta el tamaño del texto para la descripción */
 }
 
 #contacto .info-contacto-modulo {
@@ -85,3 +137,6 @@ h3, h4 {
 }
 
 
+iframe{
+    margin: auto;
+}
